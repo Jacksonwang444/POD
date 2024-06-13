@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ImprinTee Clothing Brand</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        section {
+            padding: 2rem;
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            margin-bottom: 2rem;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .product-gallery, .influencer-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+        }
+        .product-gallery img, .influencer-gallery img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>POD Clothing Brand</h1>
+    </header>
+    <section id="brand">
+        <h2>Brand Introduction</h2>
+        <p><strong>ImprinTee</strong> is dedicated to offering high-quality, fashion-forward clothing. Since its inception, ImprinTee has been beloved by consumers for its unique design philosophy and superb craftsmanship. Our design inspiration comes from cultures and arts worldwide, and through innovative designs and meticulous workmanship, ImprinTee strives to bring a unique wearing experience to every customer.</p>
+    </section>
+    <section id="products">
+        <h2>Product Introduction</h2>
+        <p><strong>ImprinTee--Canvas meets Tees</strong></p>
+        <p>At ImprinTee, we believe a T-shirt is more than just a piece of clothing - it's a personal billboard, an artist's canvas, a statement piece. Our brand is built on the idea that fashion should be a form of self-expression and individuality. Every shirt we create is not just an item to wear, but a voice for the wearer.</p>
+        <p>Our concept is rooted in the art of "imprinting." Just as an imprint leaves a lasting mark, we want our shirts to leave an impression that goes beyond the fabric. We merge the worlds of fashion and printmaking to produce T-shirts that showcase stunning visuals and thought-provoking messages. ImprinTee is where canvas meets Tees. With a heartbeat tuned to the latest cultural vibes, our shirts reflect the currents of time: from social trending to pop culture, from fine art to viral memes. We provide a platform to turn creativity into wearable art.</p>
+        <p>But it's not enough to just look good - we are committed to doing good. Material lies at the core of ImprinTee, from the use of eco-friendly inks to organic and recycled fabrics. We're dedicated to ethical manufacturing practices, ensuring that our impact on the world is as positive as the messages on our shirts.</p>
+        <p>Embrace the ImprinTee ethos: Be Creative, Be bold, be different, be you. Your story is unique, your shirt is your canvas.</p>
+    </section>
+    <section id="gallery">
+        <h2>Product Gallery</h2>
+        <p>Here you can browse our latest product series. Each season, ImprinTee combines current fashion trends with classic elements to bring you a refreshing fashion experience.</p>
+        <div class="product-gallery">
+            <div>
+                <img src="http://172.30.138.88/images/image61.jpeg" alt="Product Image 61">
+                <p>P1</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/image64.jpeg" alt="Product Image 64">
+                <p>P2</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/image67.jpeg" alt="Product Image 67">
+                <p>P3</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/image69.jpeg" alt="Product Image 69">
+                <p>P4</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/image72.jpeg" alt="Product Image 72">
+                <p>P5</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/image80.jpeg" alt="Product Image 80">
+                <p>P6</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/v1.jpeg" alt="Product Image v1">
+                <p>P7</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/v3.jpeg" alt="Product Image v3">
+                <p>P8</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/v5.jpeg" alt="Product Image v5">
+                <p>P9</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/images/v8.jpeg" alt="Product Image v8">
+               <p>P10</p>
+            </div>
+        </div>
+    </section>
+    <section id="influencers">
+        <h2>Influencer Showcase</h2>
+        <p>ImprinTee collaborates with numerous fashion influencers, bloggers, and celebrities to showcase how our products display their unique charm in different styles and occasions. Through their styling shares, you can gain more outfit inspiration and easily handle various fashion styles.</p>
+        <div class="influencer-gallery">
+            <div>
+                <img src="http://172.30.138.88/peo/po1.png" alt="Influencer 1">
+                <p>.kunno: Based on the huge fan base and outstanding personal style, we can cooperate with each other to customize models.</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/peo/po2.png" alt="Influencer 2">
+                <p>thatlittlepuff: Animal experts, based on fans' love for cats, can choose pictures of cats to develop into costumes.</p>
+            </div>
+            <div>
+                <img src="http://172.30.138.88/peo/po3.png" alt="Influencer 3">
+                <p>brittanybalyn: Fashion bloggers and single mothers can choose Mother’s Day style targeted delivery.</p>
+            </div>
+        </div>
+    </section>
+    <section id="conditions">
+        <h2>The Conditions for Applying for Samples</h2>
+        <p>The number of followers is over 10k, with a compliance rate greater than 70%.</p>
+        <p>The output of GMV in the last 30 days is between $3000 and $5000, with a sample request limit less than $40/3 pieces per person.</p>
+        <p>The output of GMV in the last 30 days exceeds $5000, the sample request limit less than $60/5 pieces per person.</p>
+        <p>Meanwhile, if your application quota is full, you can't continue to apply for samples. If you can't continue to apply for samples because of the number of videos, you can shoot the videos that you applied for samples before until you reach the condition.</p>
+        <p>If you meet all the above conditions but still can't apply for samples, please send me the screenshot of the page where you applied for samples and I will help you to find out the reason.</p>
+    </section>
+    <section id="cooperation">
+        <h2>How to Confirm Cooperation with Us</h2>
+        <p>If you are interested in our products, please give us a positive reply first and follow the steps below:</p>
+        <h3>Step 1: Discover free product samples in the product market or through the Target invite page</h3>
+        <p>After finding the product you want to promote in the product market or the Target invite page, you can check if there is a free sample offer by checking the product details page. If so, the "Request Free Sample" button will be displayed. Note: After applying for a free sample, the product will appear in your showcase. Once your free sample is approved, this will make it easy to promote the product.</p>
+        <p>Request a free sample from the product market:</p>
+        <p>Request a free sample from the Target invite page:</p>
+        <h3>Step 2: Request a free sample</h3>
+        <p>After clicking "Request Free Sample", fill in the information required to receive the sample, including size, contact details and shipping information.</p>
+        <p>Notes:</p>
+        <ul>
+            <li>Withdrawal Request: After submitting a free sample request, you can cancel or withdraw the request before the seller processes and ships the sample. You can withdraw the request by clicking the "Withdraw Request" button on the "Request Details" page.</li>
+            <li>Number of free samples: If your monthly GMV is less than $5,000, the number of free sample requests that are being reviewed, waiting for shipment, and pending cannot exceed five (5) at any given time. If your monthly GMV is between $5,000 and $150,000, you can request up to 20 free samples at any given time. If your monthly GMV exceeds $150,000, you can request up to 50 free samples at any given time.</li>
+        </ul>
+        <h3>Step 3: Track the status of your free sample request</h3>
+        <p>Track the status of your free sample request on the "Request Details" page, where you can view the status of each request, shipping time, and any promotional content creation status. Note: If you have other questions about the status of your free sample, you can contact the seller through the notification center or inbox.</p>
+    </section>
+    <section id="partnership">
+        <h2>Partnership</h2>
+        <p>
+                All Links：<li>https://affiliate-us.tiktok.com/api/v1/share/AImVSxwtDSAm</li>
+                                 <li>https://affiliate-us.tiktok.com/api/v1/share/AImVT24qi   </li></p>
+        <p>ImprinTee welcomes all kinds of partnership opportunities. Whether you are a retailer, a fashion blogger, or a brand promoter, we look forward to creating more fashion possibilities together. Please contact our partnership department for more details.</p>
+        <h3>Contact for Partnership:</h3>
+        <p><strong>Email:</strong> Mijing(牛蜜静)  minerva@bluetopia.shop</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 ImprinTee. All rights reserved.</p>
+    </footer>
+</body>
+</html>
